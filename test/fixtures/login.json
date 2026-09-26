@@ -1,0 +1,18 @@
+[
+    {
+        "testTitle": "Deve logar como Administrador com sucesso",
+        "dadosAluno": {
+            "email": "admin@escola.com",
+            "senha": "admin123"
+        },
+        "statusCodeEsperado": 200
+    },
+    {
+        "testTitle": "Deve logar como Aluno com sucesso",
+        "dadosAluno": {
+            "email": "bruno.lima@example.com",
+            "senha": "123456"
+        },
+        "statusCodeEsperado": 200
+    }
+]
